@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  build-and-deploy:
+  build-and-publish:
     runs-on: ubuntu-latest
 
     steps:
@@ -15,7 +15,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
-   
+    
     - name: Setup .NET 8 SDK
       uses: actions/setup-dotnet@v3
       with:
@@ -25,34 +25,14 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore DotnetHelloCI/DotnetHelloCI.csproj
 
-   
+    
     - name: Build project
       run: dotnet build DotnetHelloCI/DotnetHelloCI.csproj --configuration Release --no-restore
 
-   
+    
     - name: Test project
       run: dotnet test DotnetHelloCI/DotnetHelloCI.csproj --no-build --verbosity normal
 
-   
+  
     - name: Publish project
       run: dotnet publish DotnetHelloCI/DotnetHelloCI.csproj -c Release -o ./publish
-
-    
-    - name: Create GitHub Release
-      id: create_release
-      uses: softprops/action-gh-release@v1
-      with:
-        tag_name: v${{ github.run_number }}
-        name: Release v${{ github.run_number }}
-        draft: false
-        prerelease: false
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-   
-    - name: Upload Release Asset
-      uses: softprops/action-gh-release@v1
-      with:
-        files: ./publish/**
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
