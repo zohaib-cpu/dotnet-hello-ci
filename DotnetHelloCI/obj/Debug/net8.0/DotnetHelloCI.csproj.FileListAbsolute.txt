@@ -1,0 +1,14 @@
+C:\Users\This PC\Desktop\dotnet-hello-ci\DotnetHelloCI\bin\Debug\net8.0\DotnetHelloCI.exe
+C:\Users\This PC\Desktop\dotnet-hello-ci\DotnetHelloCI\bin\Debug\net8.0\DotnetHelloCI.deps.json
+C:\Users\This PC\Desktop\dotnet-hello-ci\DotnetHelloCI\bin\Debug\net8.0\DotnetHelloCI.runtimeconfig.json
+C:\Users\This PC\Desktop\dotnet-hello-ci\DotnetHelloCI\bin\Debug\net8.0\DotnetHelloCI.dll
+C:\Users\This PC\Desktop\dotnet-hello-ci\DotnetHelloCI\bin\Debug\net8.0\DotnetHelloCI.pdb
+C:\Users\This PC\Desktop\dotnet-hello-ci\DotnetHelloCI\obj\Debug\net8.0\DotnetHelloCI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\This PC\Desktop\dotnet-hello-ci\DotnetHelloCI\obj\Debug\net8.0\DotnetHelloCI.AssemblyInfoInputs.cache
+C:\Users\This PC\Desktop\dotnet-hello-ci\DotnetHelloCI\obj\Debug\net8.0\DotnetHelloCI.AssemblyInfo.cs
+C:\Users\This PC\Desktop\dotnet-hello-ci\DotnetHelloCI\obj\Debug\net8.0\DotnetHelloCI.csproj.CoreCompileInputs.cache
+C:\Users\This PC\Desktop\dotnet-hello-ci\DotnetHelloCI\obj\Debug\net8.0\DotnetHelloCI.dll
+C:\Users\This PC\Desktop\dotnet-hello-ci\DotnetHelloCI\obj\Debug\net8.0\refint\DotnetHelloCI.dll
+C:\Users\This PC\Desktop\dotnet-hello-ci\DotnetHelloCI\obj\Debug\net8.0\DotnetHelloCI.pdb
+C:\Users\This PC\Desktop\dotnet-hello-ci\DotnetHelloCI\obj\Debug\net8.0\DotnetHelloCI.genruntimeconfig.cache
+C:\Users\This PC\Desktop\dotnet-hello-ci\DotnetHelloCI\obj\Debug\net8.0\ref\DotnetHelloCI.dll
