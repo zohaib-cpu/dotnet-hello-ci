@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Program.cs
+while(true)
+{
+    Console.WriteLine("Hello, World!");
+    Thread.Sleep(10000); // 10 seconds
+}
